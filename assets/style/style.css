@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Agrandir";
+    src: url(../fonts/Agrandir-GrandHeavy.otf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Agrandir";
+    src: url(../fonts/Agrandir-GrandLight.otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Agrandir";
+    src: url(../fonts/Agrandir-Narrow.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Agrandir";
+    src: url(../fonts/Agrandir-Regular.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Agrandir";
+    src: url(../fonts/Agrandir-TextBold.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Agrandir";
+    src: url(../fonts/Agrandir-Tight.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Agrandir";
+    src: url(../fonts/Agrandir-WideLight.otf);
+    font-weight: 300;
+}
+
+:root {
+    --background-primary: #110F0F;
+    --background-secondary: #000000;
+    --background-not-often: #FFA800;
+    --color-text: #fff;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    padding: 25px;
+    background-color: var(--background-primary);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    float: left;
+}
+
+.logo h2 {
+    color: var(--color-text);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    font-family: "agrandir";
+    font-weight: 500;
+    font-size: 16px;
+    gap: 15px;
+    align-items: center;
+}
+
+nav a {
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    margin-left: 15px ;
+    background-color: transparent;
+    color: var(--background-not-often);
+    border: 1px solid var(--background-not-often);
+    width: 114px;
+    height: 38px;
+    border-radius: 50px;
+}
+
+/* у меня были мысли сделать вообще на *background-color:black; типо того,но у меня шото вообще голова не варит 
+как это сделать,у меня не получилось сделать нихуя,я не понимаю как мне делать,я не могу на header кинуть
+container,оно не будет нормально работать,но я почему то думаю что мне и не надо кидать на header class container
+кр4 глянь пж как оно вообще,но мне кажется что вообще все не правильно */
+
+
+
