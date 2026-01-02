@@ -44,9 +44,9 @@
 }
 
 .btn-primary {
-    color: var(--color-text);
+    color: var(--background-secondary);
     padding: 17px 24px;
-    background-color: transparent;
+    background-color: var(--color-accent);
     border: none;
     border-radius: 50px;
     font-weight: 500;
@@ -133,13 +133,15 @@ nav a {
     width: 523px;
 }
 
-.main-text h2.gradient {
+.main-text p.gradient {
     font-size: 96px;
     color: transparent;
-    background-image: linear-gradient(100deg, var(--gradient));
+    background-image: linear-gradient(270deg, var(--gradient));
+    width: fit-content;
     background-clip: text;
     -webkit-background-clip: text;
 }
+
 
 .main-text h2 {
     font-family: "agrandir";
@@ -157,7 +159,7 @@ nav a {
     background-color: var(--background-primary);
 }
 
-.main-text p {
+.main-text-description {
     font-family: "agrandir";
     font-weight: 400;
     font-size: 16px;
@@ -173,10 +175,9 @@ nav a {
 }
 
 .input-main .btn-primary {
-    background-color: var(--color-accent);
-    color: var(--background-secondary);
     margin-left: 16px;
 }
+
 /* 
 возможно я сейчас написал какую-то полную хуйню,мне кажется что пол проекта работает на костыле,по типу я указал margin 0 auto
 в header,d content,и мне кажется что это не правильно,но по другому оно не работает */
