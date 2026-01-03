@@ -28,6 +28,20 @@
     font-weight: 300;
 }
 
+body > *:nth-child(n) {
+    background-color: var(--background-primary);
+}
+
+body > *:nth-child(2n+3) {
+    background-color: var(--background-secondary);
+}
+
+
+
+/* body:nth-child(1n+3) {
+    background-color: var(--color-accent);
+} */
+
 :root {
     --background-primary: #110F0F;
     --background-secondary: #000000;
@@ -73,27 +87,28 @@
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1300px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-header {
-    max-width: 1400px;
-    width: 100%;
-    margin: 0 auto;
+/* header {
     background-color: var(--background-primary);
+} */
+
+header .container {
+    padding: 25px 0px 100px 0px;
     display: flex;
     justify-content: space-between;
 }
 
-.content {
+/* .content {
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     padding: 25px 0px 100px 0px;
-}
+} */
 
 nav {
     display: flex;
@@ -130,8 +145,14 @@ nav a {
 
 .main-text {
     background-color: var(--background-primary);
-    width: 523px;
+    width: 100%;
+    max-width: 523px;
+    margin: 0 auto;
 }
+
+/* section.hero-section {
+    background-color: var(--background-primary);
+} */
 
 .main-text p.gradient {
     font-size: 96px;
@@ -148,15 +169,6 @@ nav a {
     font-weight: 700;
     font-size: 96px;
     color: var(--color-text);
-}
-
-.leads {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-primary);
 }
 
 .main-text-description {
