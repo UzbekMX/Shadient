@@ -28,19 +28,13 @@
     font-weight: 300;
 }
 
-body > *:nth-child(n) {
+body>*:nth-child(n) {
     background-color: var(--background-primary);
 }
 
-body > *:nth-child(2n+3) {
+body>*:nth-child(2n+3) {
     background-color: var(--background-secondary);
 }
-
-
-
-/* body:nth-child(1n+3) {
-    background-color: var(--color-accent);
-} */
 
 :root {
     --background-primary: #110F0F;
@@ -93,22 +87,11 @@ body > *:nth-child(2n+3) {
     margin-right: auto;
 }
 
-/* header {
-    background-color: var(--background-primary);
-} */
-
 header .container {
     padding: 25px 0px 100px 0px;
     display: flex;
     justify-content: space-between;
 }
-
-/* .content {
-    max-width: 1300px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 25px 0px 100px 0px;
-} */
 
 nav {
     display: flex;
@@ -144,15 +127,10 @@ nav a {
 }
 
 .main-text {
-    background-color: var(--background-primary);
     width: 100%;
     max-width: 523px;
     margin: 0 auto;
 }
-
-/* section.hero-section {
-    background-color: var(--background-primary);
-} */
 
 .main-text p.gradient {
     font-size: 96px;
@@ -190,6 +168,71 @@ nav a {
     margin-left: 16px;
 }
 
+.text-offer {
+    margin: 0 auto;
+    text-align: center;
+    width: 634px;
+}
+
+.text-offer h2 {
+    font-weight: 700;
+    font-family: "agrandir";
+    font-size: 40px;
+    color: var(--color-text);
+    padding-top: 80px;
+    padding-bottom: 24px;
+}
 /* 
-возможно я сейчас написал какую-то полную хуйню,мне кажется что пол проекта работает на костыле,по типу я указал margin 0 auto
-в header,d content,и мне кажется что это не правильно,но по другому оно не работает */
+Вот ведь как бывает: вечером он ей подарил букет, а ночью - она ему ;) */
+
+.text-offer p {
+    text-align: center;
+    color: var(--color-text);
+    font-size: 16px;
+    font-family: "agrandir";
+    font-weight: 400;
+    opacity: 60%;
+    padding-bottom: 40px;
+}
+
+.item-row {
+    margin: 0 auto;
+    width: 1078px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.advantages {
+    margin-bottom: 40px;
+    border: 2px solid #A1AEBF;
+    border-radius: 5px;
+    width: 338px;
+    padding: 20px 20px;
+}
+
+.advantages h2 {
+    padding-bottom: 12px;
+    font-family: "agrandir";
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.advantages p {
+    font-family: "agrandir";
+    font-size: 14;
+    font-weight: 700;
+    color: var(--color-text);
+    opacity: 60%;
+    padding-bottom: 40px;
+}
+
+.advantages img {
+    padding-bottom: 20px;
+}
+
+/* возможно ты скажешь что на каждом блоке padding-bottom не правильно было ставить,
+и повторение старых ошибок,но я по другому хз как делать,если ставить один padding,то оно хуйня получается
+еще я уверен что ты скажешь а нахуя ты поставил margin:0 auto; да,но по другому оно не становилось,и почему так,я хуй знает
+возможно можно было поставить еще один блок после container и перед text-offer,и туда уже все прописать */
