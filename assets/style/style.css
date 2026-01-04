@@ -203,12 +203,12 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    padding-bottom: 75px;
 }
 
 .item-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
 }
 
 .advantages {
@@ -216,6 +216,7 @@ nav a {
     border-radius: 5px;
     width: 338px;
     padding: 20px 20px;
+
 }
 
 .advantages h2 {
@@ -239,7 +240,104 @@ nav a {
     padding-bottom: 20px;
 }
 
-/* возможно ты скажешь что на каждом блоке padding-bottom не правильно было ставить,
-и повторение старых ошибок,но я по другому хз как делать,если ставить один padding,то оно хуйня получается
-еще я уверен что ты скажешь а нахуя ты поставил margin:0 auto; да,но по другому оно не становилось,и почему так,я хуй знает
-возможно можно было поставить еще один блок после container и перед text-offer,и туда уже все прописать */
+.searching-man {
+    padding: 120px 0px 115px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searching-man-text {
+    color: var(--color-text);
+    font-family: "agrandir";
+}
+
+.searching-man-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.searching-man-text p {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 60%;
+    padding-bottom: 32px;
+}
+
+.searching-man-text .btn-secondary {
+    padding: 12px 24px;
+}
+
+.portfolio {
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    font-family: "Quicksand";
+    color: var(--color-text);
+}
+
+.pieces {
+    color: var(--color-text);
+}
+
+.pieces h2 {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+
+.pieces p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.pieces .btn-secondary {
+    padding: 12px 24px;
+}
+
+.our-work {
+    display: flex;
+}
+
+.card-work {
+    margin: 32px;
+    border: 1px solid #A1AEBF;
+    border-radius: 5px;
+    max-width: 412px;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.card-work p.category {
+    margin-top: 24px;
+    font-family: "Archivo";
+    font-weight: 300;
+    font-size: 12px;
+    color: #1A365D;
+    background-color: var(--color-accent);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 4px 8px;
+    width: fit-content;
+}
+
+.card-work p.read {
+    padding-bottom: 24px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 60%;
+    color: var(--color-text);
+    gap: 4px;
+}
+
+.card-work h2 {
+    padding: 20px 0px 20px 0px;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-text);
+}
