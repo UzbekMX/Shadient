@@ -594,6 +594,7 @@ nav a {
 
 .discuss .message .input-email {
     width: 320px;
+    height: 52px;
     background-color: var(--color-text);
     color: var(--background-secondary);
 }
@@ -647,6 +648,7 @@ nav a {
 .footer-list li:nth-of-type(n) {
     opacity: 60%;
     font-family: "Quicksand";
+    /* Представим что там такой шрифт а не тот который на макете,потому что скачивать еще один впадлу было */
     font-weight: 500;
     font-size: 16px;
 }
@@ -671,7 +673,6 @@ nav a {
 }
 
 .footer-list {
-    border: 3px solid red;
     display: flex;
     justify-content: space-between;
     gap: 24px;
