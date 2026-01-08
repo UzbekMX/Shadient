@@ -631,18 +631,19 @@ nav a {
     text-align: start;
 }
 
-.footer-content p.signature {
+footer .container {
+    text-align: center;
+    color: var(--color-text);
+    padding-top: 80px;
+}
+
+footer p.signature {
     opacity: 60%;
     font-family: "agrandir";
     font-weight: 400;
     font-size: 16px;
     color: var(--color-text);
     padding: 80px 0px 40px 0px;
-}
-
-.footer-content {
-    text-align: center;
-    color: var(--color-text);
 }
 
 .footer-list li:nth-of-type(n) {
@@ -678,10 +679,6 @@ nav a {
     gap: 24px;
 }
 
-.footer-content {
-    padding-top: 80px;
-}
-
 .footer-feedback {
     display: flex;
     flex-direction: column;
@@ -710,8 +707,4 @@ nav a {
     font-family: "agrandir";
     font-size: 14px;
     font-weight: 300;
-}
-
-.footer-logo img:nth-child(1):hover {
-    transform: scale(50);
 }
