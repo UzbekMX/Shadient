@@ -1,11 +1,16 @@
-const button = document.getElementsByClassName("btn-primary");
+const toTop = document.querySelector("#scrol-to-top")
 
-button[2].addEventListener ("click", () => {
+toTop.addEventListener ("click", () => {
     window.scrollTo ({
         top: 0, 
         behavior: "smooth"
     });
 });
 
-// ich придумал кнопку,но ich вообще нихуя не понял как это arbeinet,я по факту 
-// немного взял инфы из видоса с ютуба,и немного переписал с gpt
+const send = document.querySelectorAll("#send") 
+
+send.forEach (button => {
+    button.addEventListener("click", () => {
+        alert("Собщение отправлено")
+    })
+})
