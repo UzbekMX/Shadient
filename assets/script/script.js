@@ -7,10 +7,19 @@ toTop.addEventListener ("click", () => {
     });
 });
 
-const send = document.querySelectorAll("#send") 
+const send = document.querySelectorAll("#send")
 
 send.forEach (button => {
     button.addEventListener("click", () => {
         alert("Собщение отправлено")
+    })
+})
+
+const toDown = document.querySelector("#scroll-to-down")
+
+toDown.addEventListener ("click" , () => {
+    window.scrollTo ({
+        top:4400,
+        behavior:"smooth"
     })
 })
