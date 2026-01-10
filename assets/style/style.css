@@ -187,6 +187,94 @@ nav a {
     margin-left: 16px;
 }
 
+.text-compain {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-text);
+}
+
+.text-compain p {
+    opacity: 60%;
+    font-family: "agrandir";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-compain h2 {
+    font-family: "agrandir";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text-trusted {
+    padding-bottom: 64px;
+    max-width: 634px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trusted-compain {
+    color: var(--color-text);
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.parnters-row {
+    margin-right: 70px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.parnters-row:nth-of-type(1) {
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    padding-left: 24px;
+    position: relative;
+}
+
+.parnters-row:nth-of-type(2) {
+    padding-left: 58px;
+}
+
+.parnters {
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    display: flex;
+    width: 198px;
+    padding: 16px 24px;
+    height: 72px;
+    /* По другому оно не получалось
+    если убрать,то пару блоко просто идут по пизде из-за этого */
+    border: var(--border);
+    border-radius: 5px;
+}
+
+.parnters h2 {
+    font-family: "Quicksand";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.parnters-row:nth-child(2) .parnters:nth-of-type(1) {
+    position: absolute;
+    left: -170px;
+}
+
+.parnters-row {
+    gap: 24px;
+    display: flex;
+}
+
 .text-offer {
     margin: 0 auto;
     text-align: center;
