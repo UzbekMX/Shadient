@@ -6,14 +6,14 @@
 
     .container {
         /* тут хз как правильно прописать именно размер контейнреа,ибо на разных экранах разное разрешение */
-        max-width: 500px;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 0px 15px 0px 15px;
     }
 
+
+
     header .container {
-        padding: 20px 0px 50px 0px;
+        padding: 20px 15px 30px 15px;
     }
 
     .trusted-compain {
@@ -30,7 +30,7 @@
     }
 
     .text-compain {
-        padding-top: 40px;
+        padding-top: 50px;
     }
 
     .parnters {
@@ -89,6 +89,7 @@
     }
 
     .main-text {
+        padding-top: 20px;
         flex-direction: column;
         display: flex;
         justify-content: center;
@@ -130,9 +131,15 @@
     }
 
     .input-main {
-        width: 50%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
+    }
+
+    .input-main .btn-primary {
+        padding: 6px 12px;
     }
 
     .main-text .input-email {
@@ -163,14 +170,20 @@
     }
 
     .options {
-        max-width: 500px;
         width: 100%;
-        gap: 15px;
+        gap: 10px;
         padding-bottom: 30px;
     }
 
+    .item-row {
+        gap: 10px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .advantages {
-        width: 150px;
+        width: 200px;
         padding: 10px 15px;
     }
 
@@ -181,12 +194,12 @@
     }
 
     .advantages h2 {
-        font-size: var(--text-primary);
+        font-size: 10px;
         padding-bottom: 8px;
     }
 
     .advantages p {
-        font-size: var(--text-secondary);
+        font-size: 8px;
         padding-bottom: 15px;
     }
 
@@ -244,12 +257,14 @@
     }
 
     .card-work p.read {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .card-work #purple-background {
-        width: 150px;
-        height: 70px;
+        max-width: 150px;
+        width: 100%;
+        max-height: 70px;
+        height: 100%;
     }
 
     .card-work-row {

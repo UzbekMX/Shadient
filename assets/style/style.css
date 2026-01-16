@@ -110,7 +110,7 @@ body>*:nth-child(2n+3) {
 
 header .container {
     align-items: center;
-    padding: 25px 0px 100px 0px;
+    padding: 25px 0px 70px 0px;
     display: flex;
     justify-content: space-between;
 }
