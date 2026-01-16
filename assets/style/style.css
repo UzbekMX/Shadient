@@ -61,8 +61,8 @@ body>*:nth-child(2n+3) {
     --color-text: #fff;
     --gradient: #9DE8EE 0%, #FA7C0B 49%, #9F8CED 100%;
     --border: 1px solid #A1AEBF;
-    --text-secondary: 12px;
-    --text-primary: 20px;
+    --text-secondary: 7px;
+    --text-primary: 10px;
 }
 
 .btn {
@@ -562,28 +562,32 @@ nav a {
     justify-content: space-between;
 }
 
-.reviews:nth-child(n) {
-    cursor: pointer;
-}
+@media (hover: hover) {
 
-.reviews-people:nth-child(n) {
-    transition: 0.5s;
-}
+    .reviews:nth-child(n) {
+        cursor: pointer;
+    }
 
-.reviews-people:nth-child(1):hover {
-    transform: scale(1.1);
-}
+    .reviews-people:nth-child(n) {
+        transition: 0.5s;
+    }
 
-.reviews-people:nth-child(2):hover {
-    transform: scale(1.1);
-}
+    .reviews-people:nth-child(1):hover {
+        transform: scale(1.1);
+    }
 
-.reviews-people:nth-child(3):hover {
-    transform: scale(1.1);
-}
+    .reviews-people:nth-child(2):hover {
+        transform: scale(1.1);
+    }
 
-.reviews-people:nth-child(4):hover {
-    transform: scale(1.1);
+    .reviews-people:nth-child(3):hover {
+        transform: scale(1.1);
+    }
+
+    .reviews-people:nth-child(4):hover {
+        transform: scale(1.1);
+    }
+
 }
 
 .reviews-people {
