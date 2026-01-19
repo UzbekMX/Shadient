@@ -61,8 +61,9 @@ body>*:nth-child(2n+3) {
     --color-text: #fff;
     --gradient: #9DE8EE 0%, #FA7C0B 49%, #9F8CED 100%;
     --border: 1px solid #A1AEBF;
-    --text-secondary: 8px;
-    --text-primary: 10px;
+    --text-secondary: 12px;
+    --text-primary: 14px;
+    --text-description: 11px
 }
 
 .btn {
@@ -719,10 +720,6 @@ nav a {
     }
 }
 
-.footer-list {
-    text-align: start;
-}
-
 footer .container {
     text-align: center;
     color: var(--color-text);
@@ -766,9 +763,12 @@ footer p.signature {
 }
 
 .footer-list {
+    max-width: 1300px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    text-align: start;
 }
 
 .footer-feedback {
@@ -799,4 +799,10 @@ footer p.signature {
     font-family: "agrandir";
     font-size: 14px;
     font-weight: 300;
+}
+
+.footer-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
