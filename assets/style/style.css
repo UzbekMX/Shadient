@@ -61,7 +61,7 @@ body>*:nth-child(2n+3) {
     --color-text: #fff;
     --gradient: #9DE8EE 0%, #FA7C0B 49%, #9F8CED 100%;
     --border: 1px solid #A1AEBF;
-    --text-secondary: 7px;
+    --text-secondary: 8px;
     --text-primary: 10px;
 }
 
@@ -265,8 +265,6 @@ nav a {
     width: 198px;
     padding: 16px 24px;
     height: 72px;
-    /* По другому оно не получалось
-    если убрать,то пару блоко просто идут по пизде из-за этого */
     border: var(--border);
     border-radius: 5px;
 }
@@ -279,7 +277,6 @@ nav a {
 
 .parnters-row:nth-child(2) .parnters:nth-of-type(1) {
     position: relative;
-    /* left: -100px; */
 }
 
 .text-offer {
@@ -631,6 +628,10 @@ nav a {
     font-weight: 700;
     font-size: 16px;
     color: var(--color-text);
+}
+
+.dots {
+    display: none;
 }
 
 .discuss {

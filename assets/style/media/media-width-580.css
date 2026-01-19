@@ -1,9 +1,5 @@
 @media (max-width: 580px) {
 
-    body {
-        overflow-x: hidden;
-    }
-
     .container {
         /* тут хз как правильно прописать именно размер контейнреа,ибо на разных экранах разное разрешение */
         width: 100%;
@@ -228,6 +224,10 @@
     }
 
     .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding: 40px 0px 40px 0px;
     }
 
@@ -247,7 +247,7 @@
     }
 
     .card-work {
-        max-width: 200px;
+        max-width: 250px;
         width: 100%;
         padding: 10px;
     }
@@ -269,9 +269,9 @@
     }
 
     .card-work #purple-background {
-        max-width: 150px;
+        max-width: 250px;
         width: 100%;
-        max-height: 50px;
+        max-height: 100px;
         height: 100%;
     }
 
@@ -280,12 +280,13 @@
     }
 
     .pieces {
-        flex-direction: column;
         display: flex;
-        align-items: flex-start;
-        max-width: 200px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 170px;
         width: 100%;
-        padding-right: 10px;
+        padding-bottom: 20px;
     }
 
     .pieces .btn-secondary {
@@ -295,7 +296,13 @@
     }
 
     .reviews-content {
-        padding: 40px 0px 40px 0px;
+        padding: 40px 0px 30px 0px;
+    }
+
+    .reviews-text {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
     }
 
     .reviews-text h2 {
@@ -305,6 +312,7 @@
     .reviews-text .btn-main {
         font-size: var(--text-secondary);
         gap: 12px;
+        display: none;
     }
 
     .reviews-text .btn-secondary {
@@ -347,8 +355,53 @@
 
     .reviews-people {
         padding: 12px;
-        max-width: 120px;
+        max-width: 250px;
         width: 100%;
+        flex-shrink: 0;
+    }
+
+    .reviews {
+        position: relative;
+        overflow-x: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(250px * 1 + 0px);
+        gap: 12px;
+        padding: 5px;
+        padding-bottom: 15px;
+    }
+
+    .reviews::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+        border: 1px solid var(--color-text);
+        border-radius: 100%;
+        background-color: #1A365D;
+        align-items: center;
+        transition: 0.5s;
+    }
+
+    .dot a {
+        width: 8px;
+        height: 8px;
+    }
+
+    .dot:hover {
+        transition: 0.5s;
+        transform: scale(2);
+        background-color: var(--color-accent);
     }
 
     .discuss {
