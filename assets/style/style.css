@@ -63,7 +63,10 @@ body>*:nth-child(2n+3) {
     --border: 1px solid #A1AEBF;
     --text-secondary: 12px;
     --text-primary: 14px;
-    --text-description: 11px
+    --text-description: 11px;
+    --text-primary-tablet: 28px;
+    --text-secondary-tablet: 22px;
+
 }
 
 .btn {
@@ -149,6 +152,7 @@ nav ul {
 }
 
 nav a {
+    align-items: center;
     gap: 3px;
     display: flex;
     text-decoration: none;
@@ -158,6 +162,8 @@ nav a {
 .btn-menu {
     display: none;
 }
+
+
 
 .main-text {
     width: 100%;
@@ -324,7 +330,7 @@ nav a {
     border: var(--border);
     border-radius: 5px;
     width: 338px;
-    padding: 20px 20px;
+    padding: 20px;
 
 }
 
@@ -424,7 +430,7 @@ nav a {
     border-radius: 5px;
     max-width: 412px;
     width: 100%;
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 .card-work p.category {
@@ -738,7 +744,6 @@ footer p.signature {
 .footer-list li:nth-of-type(n) {
     opacity: 60%;
     font-family: "Quicksand";
-    /* Представим что там такой шрифт а не тот который на макете,потому что скачивать еще один впадлу было */
     font-weight: 500;
     font-size: 16px;
 }
