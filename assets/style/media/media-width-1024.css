@@ -103,6 +103,11 @@
         font-size: 22px;
     }
 
+    .text-offer {
+        width: 580px;
+        align-items: center;
+    }
+
     .text-offer h2 {
         padding-top: 60px;
         font-size: var(--text-primary-tablet);
@@ -112,18 +117,24 @@
         font-size: var(--text-secondary-tablet);
     }
 
+    .item-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
     .advantages {
-        width: 290px;
+        width: 580px;
         padding: 18px;
     }
 
     .advantages h2 {
-        font-size: var(--text-primary-tablet);
+        font-size: 34px;
     }
 
     .advantages p {
         padding-bottom: 30px;
-        font-size: var(--text-secondary-tablet)
+        font-size: 26px;
     }
 
     .searching-man {
@@ -131,8 +142,10 @@
     }
 
     .searching-man img {
-        width: 550px;
-        height: 255px;
+        max-width: 580px;
+        width: 50%;
+        max-height: 205px;
+        height: 50%;
     }
 
     .searching-man h2 {
@@ -304,8 +317,8 @@
     }
 
     .dot a {
-        width: 22px;
-        height: 22px;
+        width: 15px;
+        height: 15px;
     }
 
     .dot:hover {
@@ -345,6 +358,12 @@
 
     .footer-list a {
         font-size: var(--text-secondary-tablet);
+    }
+
+    footer ul.footer-row {
+        display: none;
+        /* Была идея создать копию footer-list и один скрыть,а второй оставить,и на втором уже делать все
+        но мне показалась эта идея плохой,по другому я не могу понять как переместить 2 списка друг под друга */
     }
 
     .footer-feedback {

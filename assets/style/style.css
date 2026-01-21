@@ -798,16 +798,11 @@ footer p.signature {
 .footer-feedback .input-email {
     width: 260px;
     height: 43px;
+    font-size: 13px;
 }
 
 .footer-feedback p:nth-of-type(1) {
     font-family: "agrandir";
     font-size: 14px;
     font-weight: 300;
-}
-
-.footer-row {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
 }
