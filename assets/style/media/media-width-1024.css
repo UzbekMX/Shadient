@@ -23,6 +23,7 @@
         width: 100%;
         padding: 20px;
         align-items: center;
+        padding-bottom: 50px;
     }
 
     nav {
@@ -35,7 +36,7 @@
     }
 
     .logo h2 {
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     #tablet {
@@ -56,21 +57,17 @@
     }
 
     #tablet img {
-        width: 60px;
-        height: 60px;
-    }
-
-    .main-text {
-        max-width: 412px;
+        width: 70px;
+        height: 70px;
     }
 
     .main-text h2 {
         padding-top: 72px;
-        font-size: 70px;
+        font-size: 92px;
     }
 
     .main-text p.gradient {
-        font-size: 70px;
+        font-size: 92px;
     }
 
     .main-text-description {
@@ -87,6 +84,12 @@
         padding-bottom: 120px;
     }
 
+    .input-main #send {
+        font-family: "agrandir";
+        font-weight: 600;
+        font-size: var(--text-description-tablet);
+    }
+
     .text-compain h2 {
         font-size: var(--text-primary-tablet);
     }
@@ -100,7 +103,12 @@
     }
 
     .parnters h2 {
-        font-size: 22px;
+        font-size: var(--text-secondary-tablet);
+    }
+
+    .parnters {
+        width: 280px;
+        gap: 10px;
     }
 
     .text-offer {
@@ -128,13 +136,18 @@
         padding: 18px;
     }
 
+    .advantages img {
+        width: 72px;
+        height: 92px;
+    }
+
     .advantages h2 {
-        font-size: 34px;
+        font-size: var(--text-primary-tablet);
     }
 
     .advantages p {
         padding-bottom: 30px;
-        font-size: 26px;
+        font-size: var(--text-secondary-tablet);
     }
 
     .searching-man {
@@ -177,6 +190,10 @@
         text-align: center;
     }
 
+    .pieces .btn-secondary {
+        font-size: var(--text-secondary-tablet);
+    }
+
     .pieces h2 {
         font-size: var(--text-primary-tablet);
     }
@@ -207,12 +224,12 @@
     .card-work p.category {
         margin-top: 20px;
         padding: 12px 12px;
-        font-size: 24px;
+        font-size: var(--text-secondary-tablet);
     }
 
     .card-work p.read {
         margin-bottom: 20px;
-        font-size: 24px;
+        font-size: var(--text-secondary-tablet);
     }
 
     .card-work #purple-background {
@@ -341,6 +358,11 @@
 
     .discuss .message .input-email {
         font-size: var(--text-secondary-tablet);
+        height: 62px;
+    }
+
+    #scrol-to-top {
+        font-size: var(--text-description-tablet);
     }
 
     .message .btn-primary {
@@ -397,4 +419,133 @@
         gap: 30px;
     }
 
+    .about-us-text {
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .about-us-text h1 {
+        font-size: 64px;
+    }
+
+    .about-us-text h2 {
+        font-size: var(--text-secondary-tablet);
+    }
+
+    .about-us-text p {
+        font-size: var(--text-secondary-tablet);
+    }
+
+    .about-us-text .btn-primary {
+        font-size: var(--text-secondary-tablet);
+    }
+
+    .about-compain h2 {
+        padding-bottom: 15px;
+        font-size: var(--text-primary-tablet);
+    }
+
+    .about-compain .btn-secondary {
+        font-size: var(--text-secondary-tablet);
+    }
+
+    .about-compain p {
+        font-size: var(--text-secondary-tablet);
+    }
+
+    .branding-primary-text {
+        padding-bottom: 100px;
+    }
+
+    .branding-primary-text .btn-primary {
+        font-size: var(--text-description-tablet);
+        padding: 14px 28px;
+    }
+
+    .branding-primary-text h2 {
+        font-size: 28px;
+    }
+
+    .branding-primary-text p {
+        font-size: 20px;
+    }
+
+    .process-text h2 {
+        font-size: 38px;
+    }
+
+    .process-text p {
+        font-size: 22px;
+    }
+
+    .works {
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .branding-secondary-text h2 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .we-work {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .we-work #purple-background {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .we-work h2 {
+        font-size: 30px;
+    }
+
+    .works p.read {
+        font-size: 22px;
+    }
+
+    .other-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .advantages-other-card {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    .advantages-other-card img {
+        width: 82px;
+        height: 82px;
+    }
+
+    .advantages-other-card h2 {
+        font-size: 38px;
+    }
+
+    .advantages-other-card p {
+        font-size: 22px;
+    }
+
+    .other-service-text h2 {
+        font-size: 38px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .other-btn .btn-secondary {
+        font-size: 22px;
+        padding: 14px 28px;
+    }
+
+    .other-btn {
+        display: flex;
+        justify-content: flex-end;
+    }
 }

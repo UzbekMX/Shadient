@@ -61,11 +61,12 @@ body>*:nth-child(2n+3) {
     --color-text: #fff;
     --gradient: #9DE8EE 0%, #FA7C0B 49%, #9F8CED 100%;
     --border: 1px solid #A1AEBF;
-    --text-secondary: 12px;
-    --text-primary: 14px;
-    --text-description: 11px;
-    --text-primary-tablet: 28px;
-    --text-secondary-tablet: 22px;
+    --text-secondary: 24px;
+    --text-primary: 30px;
+    --text-description: 18px;
+    --text-primary-tablet: 38px;
+    --text-secondary-tablet: 30px;
+    --text-description-tablet: 22px;
 
 }
 
@@ -77,6 +78,8 @@ body>*:nth-child(2n+3) {
 }
 
 .btn-primary {
+    font-weight: 700;
+    font-family: "agrandir";
     color: var(--background-secondary);
     padding: 16px 24px;
     background-color: var(--color-accent);
@@ -84,9 +87,13 @@ body>*:nth-child(2n+3) {
     border-radius: 50px;
     font-weight: 500;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .btn-secondary {
+    font-weight: 700;
+    font-family: "agrandir";
+    cursor: pointer;
     padding: 12px 24px;
     color: var(--color-accent);
     background-color: transparent;
@@ -321,8 +328,8 @@ nav a {
     padding-bottom: 75px;
 }
 
-.item-row { 
-    gap:32px;
+.item-row {
+    gap: 32px;
     display: flex;
     justify-content: space-between;
 }
@@ -423,7 +430,7 @@ nav a {
 .card-work-row {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 16px;
 }
 
 .card-work {
@@ -806,4 +813,218 @@ footer p.signature {
     font-family: "agrandir";
     font-size: 14px;
     font-weight: 300;
+}
+
+.about-us {
+    padding-top: 72px;
+    padding-bottom: 163px;
+}
+
+.about-us-text {
+    font-family: "agrandir";
+    max-width: 523px;
+    width: 100%;
+}
+
+.about-us-text h2 {
+    color: var(--color-accent);
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.about-us-text h1 {
+    padding-bottom: 16px;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.about-us-text p {
+    padding-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-text);
+    opacity: 60%;
+}
+
+.about-us-text .btn-primary {
+    padding: 12px 24px;
+    font-family: "agrandir";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.about-compain {
+    padding-bottom: 66px;
+    font-family: "agrandir";
+    color: var(--color-text);
+}
+
+.about-compain h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-compain p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 60%;
+}
+
+.company {
+    padding: 70px 0px 70px 0px;
+}
+
+.team {
+    padding-bottom: 66px;
+}
+
+.about-compain .btn-secondary {
+    padding: 12px 24px;
+    font-family: "agrandir";
+    font-weight: 700;
+}
+
+.branding-primary-text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex;
+    max-width: 523px;
+    width: 100%;
+    font-family: "agrandir";
+    color: var(--color-text);
+    padding-bottom: 163px;
+}
+
+.branding-primary-text h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.branding-primary-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.branding-primary-text p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.branding-primary-text .btn-primary {
+    font-weight: 700;
+    padding: 12px 24px;
+}
+
+.process-text {
+    max-width: 971px;
+    width: 100%;
+    padding: 70px 0px 70px 0px;
+    font-family: "agrandir";
+    color: var(--color-text);
+}
+
+.process-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.process-text p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 60%;
+}
+
+.branding-secondary-text h2 {
+    color: var(--color-text);
+    font-family: "agrandir";
+    font-size: 32px;
+    font-weight: 700;
+    padding: 22px 0px 32px 0px;
+}
+
+.we-work {
+    color: var(--color-text);
+    border: 1px solid var(--color-text);
+    border-radius: 5px;
+    max-width: 412px;
+    width: 100%;
+    padding: 24px;
+}
+
+.works {
+    padding-bottom: 70px;
+    justify-self: space-between;
+    display: flex;
+    gap: 16px;
+}
+
+.works p.read {
+    display: flex;
+    opacity: 60%;
+    font-family: "agrandir";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.works h2 {
+    font-family: "agrandir";
+    font-size: 24px;
+    font-weight: 700;
+    padding: 24px 0px 20px 0px;
+}
+
+.other-service {
+    padding-top: 70px;
+}
+
+.other-service-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "agrandir";
+    color: var(--color-text);
+    padding-bottom: 32px;
+}
+
+.advantages-other-card {
+    border: 1px solid var(--color-text);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 412px;
+    width: 100%;
+    color: var(--color-text);
+    font-family: "agrandir";
+}
+
+.other-card {
+    gap: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-other-card h2 {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 12px 0px 12px 0px;
+}
+
+.advantages-other-card p {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 60%;
+}
+
+.other-btn {
+    padding: 60px 0px 60px 0px;
+}
+
+.other-btn .btn-secondary {
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 700;
 }
