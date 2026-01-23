@@ -581,10 +581,6 @@
         justify-content: flex-end;
     }
 
-    .branding {
-        padding-bottom: 80px;
-    }
-
     .branding-primary-text {
         padding-bottom: 35px;
         gap: 8px;
