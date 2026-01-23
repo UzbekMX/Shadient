@@ -35,10 +35,6 @@
         flex-direction: column;
     }
 
-    .logo h2 {
-        font-size: var(--text-secondary-tablet);
-    }
-
     #tablet {
         border: none;
         width: fit-content;
@@ -63,15 +59,15 @@
 
     .main-text h2 {
         padding-top: 72px;
-        font-size: 92px;
+        font-size: 72px;
     }
 
     .main-text p.gradient {
-        font-size: 92px;
+        font-size: 72px;
     }
 
     .main-text-description {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .input-email {
@@ -91,11 +87,11 @@
     }
 
     .text-compain h2 {
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     .text-compain p {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .trusted-compain {
@@ -118,11 +114,11 @@
 
     .text-offer h2 {
         padding-top: 60px;
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     .text-offer p {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .item-row {
@@ -132,22 +128,22 @@
     }
 
     .advantages {
-        width: 580px;
+        width: 450px;
         padding: 18px;
     }
 
     .advantages img {
-        width: 72px;
-        height: 92px;
+        width: 52px;
+        height: 72px;
     }
 
     .advantages h2 {
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     .advantages p {
         padding-bottom: 30px;
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .searching-man {
@@ -162,15 +158,15 @@
     }
 
     .searching-man h2 {
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     .searching-man p {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .searching-man-text .btn-secondary {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .our-work {
@@ -191,15 +187,15 @@
     }
 
     .pieces .btn-secondary {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .pieces h2 {
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     .pieces p {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .portfolio {
@@ -211,25 +207,25 @@
     }
 
     .card-work {
-        max-width: 1000px;
+        max-width: 450px;
         width: 100%;
         padding: 20px;
     }
 
     .card-work h2 {
         padding: 24px 0px 24px 0px;
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     .card-work p.category {
         margin-top: 20px;
-        padding: 12px 12px;
-        font-size: var(--text-secondary-tablet);
+        padding: 8px 8px;
+        font-size: var(--text-description-tablet);
     }
 
     .card-work p.read {
         margin-bottom: 20px;
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .card-work #purple-background {
@@ -238,11 +234,12 @@
     }
 
     .card-work-row {
+        align-items: center;
         gap: 40px;
     }
 
     .reviews-text h2 {
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     .reviews-text .btn-main {
@@ -277,15 +274,15 @@
     }
 
     .reviews-people h2.name {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .reviews-people p.city {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .reviews-people p.comment {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .reviews-people {
@@ -349,20 +346,20 @@
     }
 
     .discuss h2 {
-        font-size: 36px
+        font-size: var(--text-secondary-tablet)
     }
 
     .discuss p {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .discuss .message .input-email {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
         height: 62px;
     }
 
     #scrol-to-top {
-        font-size: var(--text-description-tablet);
+        font-size: 18px;
     }
 
     .message .btn-primary {
@@ -379,7 +376,7 @@
     }
 
     .footer-list a {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     footer ul.footer-row {
@@ -399,17 +396,17 @@
     }
 
     .footer-logo h2 {
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .footer-feedback p:nth-of-type(1) {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .footer-feedback .input-email {
-        max-width: 230px;
+        max-width: 180px;
         height: 40px;
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .footer-row {
@@ -425,32 +422,32 @@
     }
 
     .about-us-text h1 {
-        font-size: 64px;
+        font-size: var(--text-primary-tablet);
     }
 
     .about-us-text h2 {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .about-us-text p {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .about-us-text .btn-primary {
-        font-size: var(--text-secondary-tablet);
+        font-size: 18px;
     }
 
     .about-compain h2 {
         padding-bottom: 15px;
-        font-size: var(--text-primary-tablet);
+        font-size: var(--text-secondary-tablet);
     }
 
     .about-compain .btn-secondary {
-        font-size: var(--text-secondary-tablet);
+        font-size: 18px;
     }
 
     .about-compain p {
-        font-size: var(--text-secondary-tablet);
+        font-size: var(--text-description-tablet);
     }
 
     .branding-primary-text {
@@ -458,24 +455,29 @@
     }
 
     .branding-primary-text .btn-primary {
-        font-size: var(--text-description-tablet);
-        padding: 14px 28px;
+        font-size: 18px;
+        padding: 12px 24px;
     }
 
     .branding-primary-text h2 {
-        font-size: 28px;
+        font-size: var(--text-description-tablet);
     }
 
     .branding-primary-text p {
-        font-size: 20px;
+        opacity: 60%;
+        font-size: var(--text-description-tablet);
+    }
+
+    .branding-primary-text h1 {
+        font-size: var(--text-secondary-tablet);
     }
 
     .process-text h2 {
-        font-size: 38px;
+        font-size: var(--text-secondary-tablet);
     }
 
     .process-text p {
-        font-size: 22px;
+        font-size: var(--text-description-tablet);
     }
 
     .works {
@@ -486,26 +488,30 @@
     }
 
     .branding-secondary-text h2 {
-        font-size: 38px;
+        font-size: var(--text-secondary-tablet);
         text-align: center;
     }
 
     .we-work {
-        max-width: 700px;
+        max-width: 412px;
         width: 100%;
     }
 
+    p.read img {
+        width: 28px;
+    }
+
     .we-work #purple-background {
-        max-width: 700px;
+        max-width: 412px;
         width: 100%;
     }
 
     .we-work h2 {
-        font-size: 30px;
+        font-size: var(--text-secondary-tablet);
     }
 
     .works p.read {
-        font-size: 22px;
+        font-size: var(--text-description-tablet);
     }
 
     .other-card {
@@ -516,31 +522,26 @@
     }
 
     .advantages-other-card {
-        max-width: 700px;
+        max-width: 412px;
         width: 100%;
     }
 
-    .advantages-other-card img {
-        width: 82px;
-        height: 82px;
-    }
-
     .advantages-other-card h2 {
-        font-size: 38px;
+        font-size: var(--text-secondary-tablet);
     }
 
     .advantages-other-card p {
-        font-size: 22px;
+        font-size: var(--text-description-tablet);
     }
 
     .other-service-text h2 {
-        font-size: 38px;
+        font-size: var(--text-secondary-tablet);
         padding-bottom: 50px;
         text-align: center;
     }
 
     .other-btn .btn-secondary {
-        font-size: 22px;
+        font-size: 18px;
         padding: 14px 28px;
     }
 

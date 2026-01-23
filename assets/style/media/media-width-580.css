@@ -58,10 +58,6 @@
         flex-direction: column;
     }
 
-    .logo h2 {
-        font-size: var(--text-secondary);
-    }
-
     .logo img {
         width: 28px;
         height: 28px;
@@ -92,11 +88,12 @@
         flex-direction: column;
         display: flex;
         align-items: center;
+        text-align: start;
     }
 
     p.main-text-description {
-        font-size: var(--text-secondary);
-        text-align: center;
+        font-size: var(--text-description);
+        text-align: start;
         width: 200px;
     }
 
@@ -139,8 +136,9 @@
         padding-bottom: 50px;
     }
 
-    .input-main .btn-primary {
+    .input-main #send {
         padding: 6px 12px;
+        font-size: var(--text-description);
     }
 
     .main-text .input-email {
@@ -170,7 +168,7 @@
     }
 
     .text-offer p {
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
     }
 
     .options {
@@ -199,12 +197,12 @@
     }
 
     .advantages h2 {
-        font-size: var(--text-primary);
+        font-size: var(--text-secondary);
         padding-bottom: 8px;
     }
 
     .advantages p {
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
         padding-bottom: 15px;
     }
 
@@ -221,13 +219,13 @@
     }
 
     .searching-man h2 {
-        font-size: var(--text-primary);
+        font-size: var(--text-secondary);
         padding-bottom: 12px;
     }
 
     .searching-man p {
         padding-bottom: 16px;
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
     }
 
     .searching-man .btn {
@@ -249,12 +247,12 @@
 
     .portfolio h2 {
         padding-bottom: 10px;
-        font-size: var(--text-primary);
+        font-size: var(--text-secondary);
     }
 
     .portfolio p {
         padding-bottom: 14px;
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
     }
 
     .our-work {
@@ -271,18 +269,22 @@
 
     .card-work h2 {
         padding: 10px 0px 10px 0px;
-        font-size: var(--text-primary);
+        font-size: var(--text-secondary);
     }
 
     .card-work p.category {
         margin-top: 12px;
         padding: 4px 4px;
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
     }
 
     .card-work p.read {
         margin-bottom: 12px;
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
+    }
+
+    p.read img {
+        width: 28px;
     }
 
     .card-work #purple-background {
@@ -359,15 +361,15 @@
     }
 
     .reviews-people h2.name {
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
     }
 
     .reviews-people p.city {
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
     }
 
     .reviews-people p.comment {
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
     }
 
     .reviews-people {
@@ -426,7 +428,7 @@
     }
 
     #scrol-to-top {
-        font-size: var(--text-description);
+        font-size: 14px;
     }
 
     .discuss-text {
@@ -434,12 +436,12 @@
     }
 
     .discuss h2 {
-        font-size: var(--text-primary);
+        font-size: var(--text-secondary);
         padding-bottom: 12px;
     }
 
     .discuss p {
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
         padding-bottom: 16px;
         width: 300px;
     }
@@ -453,12 +455,12 @@
         width: 160px;
         padding: 13px;
         height: 20px;
-        font-size: var(--text-secondary);
+        font-size: var(--text-description);
     }
 
     .message #send {
         padding: 8px 12px;
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .discuss .btn {
@@ -587,7 +589,7 @@
     }
 
     .branding-primary-text h2 {
-        font-size: var(--text-primary);
+        font-size: var(--text-secondary);
     }
 
     .branding-primary-text h1 {
@@ -595,7 +597,8 @@
     }
 
     .branding-primary-text p {
-        font-size: var(--text-secondary);
+        opacity: 60%;
+        font-size: var(--text-description);
     }
 
     .branding-primary-text .btn-primary {
@@ -627,6 +630,10 @@
         align-items: center;
     }
 
+    .works p.read {
+        font-size: var(--text-description);
+    }
+
     .we-work {
         display: flex;
         flex-direction: column;
@@ -634,6 +641,10 @@
         max-width: 412px;
         width: 100%;
         padding: 15px;
+    }
+
+    .we-work h2 {
+        font-size: var(--text-secondary);
     }
 
     .we-work #purple-background {
@@ -659,7 +670,7 @@
     }
 
     .advantages-other-card h2 {
-        font-size: 24px;
+        font-size: var(--text-secondary);
     }
 
     .advantages-other-card p {
@@ -667,8 +678,8 @@
     }
 
     .advantages-other-card img {
-        width: 52px;
-        height: 52px;
+        width: 42px;
+        height: 42px;
     }
 
     .other-btn {
