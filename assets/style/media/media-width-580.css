@@ -586,6 +586,7 @@
     }
 
     .branding-primary-text {
+        padding-bottom: 35px;
         gap: 8px;
     }
 
@@ -675,6 +676,7 @@
     }
 
     .other-btn {
+        padding: 30px 0px 30px 0px;
         display: flex;
         justify-content: flex-end;
     }
