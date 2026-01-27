@@ -50,7 +50,11 @@ body>*:nth-child(n) {
     background-color: var(--background-primary);
 }
 
-body>*:nth-child(2n+3) {
+body.primary-page>*:nth-child(2n+3) {
+    background-color: var(--background-secondary);
+}
+
+body .primary-footer {
     background-color: var(--background-secondary);
 }
 
@@ -732,11 +736,6 @@ nav a {
         transform: scale(1.1);
         opacity: 70%;
     }
-}
-
-footer {
-    max-width: 1300px;
-    width: 100%;
 }
 
 footer .container {
